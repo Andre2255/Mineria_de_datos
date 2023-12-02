@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="ANDREY_MSSQLSERVER01.staging"
+  DTS:DTSID="{CE1D6D16-C910-4F81-AAE0-07F7C8D0331E}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=ANDREY\MSSQLSERVER01;Initial Catalog=staging;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Mineria-{CE1D6D16-C910-4F81-AAE0-07F7C8D0331E}ANDREY\MSSQLSERVER01.staging;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Local.NORTHWIND"
+  DTS:DTSID="{2A9F75FC-6EEE-49B7-A5A1-66EF4EA1B087}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=Local;User ID=NORTHWIND;Provider=OraOLEDB.Oracle.1;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAlgGOUQDiwUS0LWXleWHH+AAAAAACAAAAAAAQZgAAAAEAACAAAAAQxjjSMw3KQ5Oleng4N8FsVT6xNNre9mJQikmg1wt09wAAAAAOgAAAAAIAACAAAACgnGSiApk/Bz04oeDCOemOFS4OqzP9mFfFORMJsHEZq4AAAADBEVgNILRuhFF4c3KgCkE6nWdWKKpMrtgKw0gKayREZ3m+vCco5xPwtamLJZiaWMNFnVCufC2ZEFwIK17eXtLJiKhx4c3x5KGbjhFw210OxKNPFIWsDxi2mS8VDc6zNgZObRvyVWJLJh17xtzrxiCuaOuyoxNw3rHJp+yNE03fREAAAABg3n6LRq0tFGtBGkuSqGEHs3G3y8W6gdsBpX2uXyYZJV5p25Lx9mLsSU696g5XTGS4gRtsaPyRYr6scZFn07hW</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
